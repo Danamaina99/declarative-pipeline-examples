@@ -2,15 +2,6 @@ def buildBranch
 
 pipeline {
     agent any
-    
-    stages('Build setup') {
-           steps {
-              script{
-                 buildBranch = getBranchName(branch: "$BRANCH_NAME");
-                 } 
-            }
-         }   
-     
         stage('Setup parameters') {
             steps {
                 script { 
