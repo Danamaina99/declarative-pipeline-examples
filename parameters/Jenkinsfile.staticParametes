@@ -1,6 +1,4 @@
 @Library("SharedLib@feature-branch") _
-myDeliveryPipeline {
-branch = 'feature-branch'
-    scmUrl = 'https://github.com/Danamaina99/SharedLib'
-    }
+    (gitUrl: 'https://github.com/Danamaina99/SharedLib')
+   
 
