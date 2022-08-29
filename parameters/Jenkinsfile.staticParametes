@@ -9,6 +9,7 @@ pipeline {
                  buildBranch = getBranchName(branch: "$BRANCH_NAME");
                  } 
             }
+         }   
      
         stage('Setup parameters') {
             steps {
