@@ -1,5 +1,6 @@
 @Library("SharedLib@feature-branch") _
-def call(Map stageParams)
-userRemoteconfigs: [[ url: stageParams. 'https://github.com/Danamaina99/SharedLib']]
-
+myDeliveryPipeline {
+branch = 'feature-branch'
+    scmUrl = 'https://github.com/Danamaina99/SharedLib'
+    }
 
