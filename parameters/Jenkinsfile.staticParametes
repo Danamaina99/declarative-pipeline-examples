@@ -1,6 +1,5 @@
 @Library("SharedLib@feature-branch") _
 def call(Map stageParams)
-checkout([
 userRemoteconfigs: [[ url: stageParams. 'https://github.com/Danamaina99/SharedLib']]
 
 
